@@ -1,0 +1,80 @@
+```md
+# Angular Notes
+
+## Introduction
+
+Angular is a web application framework based on the MVC (Model, View, Controller) architecture, which helps in fast and structured development. These notes summarize the key points explained in the tutorial video.
+
+- Angular follows MVC architecture (Model, View, Controller).
+- MVC architecture helps in good and fast development.
+- AngularJS and Angular are different.
+- AngularJS is deprecated and has been discontinued for a long time.
+
+---
+
+## Angular and AngularJS Difference
+
+AngularJS and Angular are completely different frameworks.
+
+- AngularJS was used earlier but is now deprecated.
+- AngularJS is no longer maintained or recommended.
+- Developers should focus only on modern Angular.
+
+---
+
+## Angular Release Information
+
+- Angular was first released on **September 14, 2016**.
+- The current version mentioned in the video is from September 21.
+- Since its release, Angular has been continuously improved.
+
+---
+
+## Performance and Development Speed
+
+Angular improves both performance and development speed:
+
+- Uses external packages and libraries for better performance.
+- Applications load faster due to optimized structure.
+- Development is faster because many built-in features are available:
+  - Validation
+  - Routing
+  - Forms handling
+  - Other ready-made functionalities
+
+These features reduce development time significantly.
+
+---
+
+## Application Usage and Community
+
+- Angular is suitable for large and complex applications.
+- It has a large and active developer community.
+- Solutions and help are easily available online.
+- Common issues can be quickly resolved through community support and documentation.
+
+---
+
+## Angular Updates
+
+- Angular receives major updates approximately every **six months**.
+- Updates introduce new features and improvements.
+- Staying updated helps developers meet current industry requirements.
+
+---
+
+## Topics Covered in This Series
+
+- Setup
+- Project structure
+- Basics
+- MVC structure
+- Components
+- Routing
+- Tasks
+- Forms
+- Events
+- API integration
+- Interview questions
+- MCP and other Angular topics
+```

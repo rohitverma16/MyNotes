@@ -1,0 +1,119 @@
+````md id="cilc4i"
+# Angular 21 Setup & Installation Guide
+
+## Introduction
+
+This tutorial explains how to install and set up **Angular 21**.  
+It is the first step before building Angular applications, focusing on setting up the correct development environment.
+
+---
+
+## Prerequisites
+
+Before installing Angular, ensure the following are installed:
+
+- **Node.js** (latest stable version)
+- **NPM (Node Package Manager)**  
+  - Installed automatically with Node.js
+
+These tools are required to install Angular CLI and run Angular applications locally.
+
+---
+
+## Installing Angular CLI
+
+Open **Terminal (macOS)** or **Command Prompt / PowerShell (Windows)** and run:
+
+```bash
+npm install -g @angular/cli
+````
+
+This installs Angular CLI globally, allowing you to create and manage Angular projects easily.
+
+---
+
+## Creating a New Angular 21 Project
+
+Generate a new Angular workspace using:
+
+```bash
+ng new angular-21-tut
+```
+
+During setup, you may be prompted to:
+
+* Enable routing (Yes/No)
+* Choose a stylesheet format (CSS / SCSS / etc.)
+
+---
+
+## Running the Angular App
+
+Navigate into the project folder:
+
+```bash id="k7x8q1"
+cd angular-21-tut
+```
+
+Start the development server:
+
+```bash id="v9p3ld"
+ng serve
+```
+
+Then open your browser and visit:
+
+```
+http://localhost:4200
+```
+
+If everything is set up correctly, the default Angular app will load successfully.
+
+---
+
+## macOS vs Windows Notes
+
+Angular setup commands are the same across platforms:
+
+* **macOS** → Uses Terminal
+* **Windows** → Uses PowerShell or Command Prompt
+
+Only the terminal application changes, not the commands.
+
+---
+
+## Common Errors & Fixes
+
+Some common issues during setup include:
+
+* **Permission errors (macOS)**
+
+  * Use `sudo` if required when installing global packages
+
+* **PATH issues**
+
+  * Ensure Node.js and Angular CLI are properly added to system PATH
+
+These are typical setup problems faced by beginners.
+
+---
+
+## Next Steps After Setup
+
+Once Angular is installed successfully, the learning path usually continues with:
+
+* Understanding Angular folder structure
+* Creating components using:
+
+  ```bash
+  ng generate component <name>
+  ```
+* Learning:
+
+  * Modules
+  * Templates
+  * Data Binding
+  * Routing
+
+```
+```
